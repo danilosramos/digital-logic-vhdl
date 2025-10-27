@@ -1,0 +1,40 @@
+### UCF 
+
+NET "clk" LOC = B8;# clock vem do cristal
+
+NET "leds(0)" lOC = J14;#LD0
+NET "leds(1)" LOC = J15;#LD1
+NET "leds(2)" LOC = K15;#LD2
+#NET "leds(3)" LOC = K14;#LD3
+#NET "leds(4)" LOC = E16;#LD4
+#NET "leds(5)" LOC = P16;#LD5
+#NET "leds(6)" LOC = E4;#LD6
+#NET "leds(7)" LOC = P4;#LD7
+
+NET "reset" LOC = B18;#BTN0
+NET "BTN1" LOC = D18;#BTN1
+#NET "conta" LOC = E18;#BTN2
+NET "carga" LOC = H13;#BTN3
+
+NET "chaves(0)" LOC = G18;#SW0
+NET "chaves(1)" LOC = H18;#SW1
+NET "chaves(2)" LOC = K18;#SW2
+NET "chaves(3)" LOC = K17;#SW3
+NET "chaves(4)" LOC = L14;#SW4
+NET "chaves(5)" LOC = L13;#SW5
+NET "chaves(6)" LOC = N17;#SW6
+#NET "chaves(7)" LOC = R17;#SW7
+
+NET "an(0)" LOC = F17;#AN0
+NET "an(1)" LOC = H17;#AN1
+NET "an(2)" LOC = C18;#AN2
+NET "an(3)" LOC = F15;#AN
+
+NET "seg(0)" LOC = L18;#CA
+NET "seg(1)" LOC = F18;#CB
+NET "seg(2)" LOC = D17;#CC
+NET "seg(3)" LOC = D16;#CD
+NET "seg(4)" LOC = G14;#CE
+NET "seg(5)" LOC = J17;#CF
+NET "seg(6)" LOC = H14;#CG
+NET "seg(7)" LOC = C17;#DP

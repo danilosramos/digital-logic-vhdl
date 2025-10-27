@@ -1,0 +1,34 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon May 19 13:53:48 2025
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "conta" LOCATE = SITE "D18" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "chaves<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "chaves<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "C17" LEVEL 1;
+COMP "chaves<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "chaves<3>" LOCATE = SITE "K17" LEVEL 1;
+COMP "chaves<4>" LOCATE = SITE "L14" LEVEL 1;
+COMP "chaves<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "chaves<6>" LOCATE = SITE "N17" LEVEL 1;
+COMP "reset" LOCATE = SITE "H13" LEVEL 1;
+COMP "carga" LOCATE = SITE "B18" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
