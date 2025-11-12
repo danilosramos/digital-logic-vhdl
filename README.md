@@ -1,32 +1,29 @@
-# Projetos de Lógica Digital e VHDL
+# Digital Logic and VHDL Projects
 
-Esta coleção de projetos demonstra a competência em **Lógica Digital** e **Design de Hardware** utilizando a **Hardware Description Language (HDL)** **VHDL**.
+This collection of projects demonstrates competence in **Digital Logic** and **Hardware Design** using the **Hardware Description Language (HDL)** **VHDL**.
 
-Os projetos foram desenvolvidos no contexto de disciplinas de Arquitetura de Computadores ou Lógica Digital, focando na implementação de circuitos digitais para simulação em ferramentas como o Xilinx ISE.
+The projects were developed in the context of Computer Architecture or Digital Logic courses, focusing on the implementation of digital circuits for simulation in tools like Xilinx ISE.
 
-## Conceitos Demonstrados
+## Demonstrated Concepts
 
-*   **VHDL:** Conhecimento da sintaxe e semântica da VHDL para descrever circuitos digitais.
-*   **Lógica Digital:** Implementação de componentes lógicos, como contadores, decodificadores, e máquinas de estados finitos.
-*   **Simulação e Teste:** Uso de *Test Benches* (`TBproj1.vhd`, `TBproj2.vhd`, `FFD_TB.vhd`) para verificar o comportamento do hardware descrito.
-*   **Síntese de Hardware:** Familiaridade com o fluxo de design para síntese em FPGAs (implícito pelo uso de arquivos de projeto do Xilinx ISE).
+*   **VHDL:** Knowledge of VHDL syntax and semantics for describing digital circuits.
+*   **Digital Logic:** Implementation of logic components, such as counters, decoders, and finite state machines.
+*   **Simulation and Testing:** Use of _Test Benches_ (`TBproj1.vhd`, `TBproj2.vhd`, `FFD_TB.vhd`) to verify the behavior of the described hardware.
+*   **Hardware Synthesis:** Familiarity with the design flow for synthesis on FPGAs (implied by the use of Xilinx ISE project files).
 
-## Projetos Incluídos
+## Included Projects
 
-| Projeto | Arquivos Principais | Descrição |
-| :--- | :--- | :--- |
-| **Contador/Cronômetro** | `cron_decr.vhd` | Implementação de um contador ou cronômetro digital em VHDL. |
-| **Lógica Sequencial** | `proj2.vhd` | Implementação de um circuito de lógica sequencial (possivelmente um registrador ou contador). |
-| **Flip-Flop D** | `FFD_TB.vhd` | Test Bench para um Flip-Flop D, componente fundamental da lógica sequencial. |
-| **Outros Componentes** | `debounce.vhd` | Módulo para *debouncing* (eliminação de ruído) de sinais de entrada. |
+| Project | Main Files | Description |
+| :-- | :-- | :-- |
+| **Counter/Stopwatch** | `cron_decr.vhd` | Implementation of a digital counter or stopwatch in VHDL. |
+| **Sequential Logic** | `proj2.vhd` | Implementation of a sequential logic circuit (possibly a register or counter). |
+| **D Flip-Flop** | `FFD_TB.vhd` | Test Bench for a D Flip-Flop, a fundamental component of sequential logic. |
+| **Other Components** | `debounce.vhd` | Module for _debouncing_ (noise elimination) of input signals. |
 
-## Como Visualizar e Analisar
+## How to View and Analyze
 
-Os arquivos `.vhd` são o código-fonte do hardware. Para simulação e síntese, é necessário o software **Xilinx ISE** ou ferramentas similares.
+The `.vhd` files are the hardware source code. For simulation and synthesis, **Xilinx ISE** software or similar tools are required.
 
-**Recomendação para Recrutadores:** O código VHDL em si é a evidência da habilidade. A análise dos arquivos `.vhd` e dos *Test Benches* demonstra a capacidade de projetar e verificar circuitos digitais.
+**Recommendation for Recruiters:** The VHDL code itself is the evidence of the skill. Analysis of the `.vhd` files and the _Test Benches_ demonstrates the ability to design and verify digital circuits.
 
----
-**Linguagem:** VHDL
-**Tópicos:** Lógica Digital, VHDL, Design de Hardware, Sistemas Digitais, FPGA.
-'''
+**Language:** VHDL **Topics:** Digital Logic, VHDL, Hardware Design, Digital Systems, FPGA.
